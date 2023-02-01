@@ -1,0 +1,15 @@
+header{
+	background-color: #fff;
+	align-items: center;
+}
+header::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+body {
+	background-color: #f8f8f8;
+	background-size: auto;
+	min-height: 100vh;
+	display: flex;
+}
